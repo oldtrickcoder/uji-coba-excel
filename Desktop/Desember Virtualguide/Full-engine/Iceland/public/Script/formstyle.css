@@ -1,0 +1,122 @@
+html{
+scroll-behavior: smooth;
+
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    height:1200px;
+  }
+
+
+  #myVideo {
+   position: fixed;
+   
+  
+  }
+
+
+
+  .container{
+      margin-top: 100px;
+  }
+
+  .col{
+      width:200px;
+      height:200px;
+        
+  }
+
+ b{
+     font-size: large;
+     font-style: bold;
+     font-family: Arial;
+    
+ } 
+  input{
+      border-color: black;
+      font-family: 'Courier New';
+      background-color: azure;
+  }
+
+  .logo{
+    margin-left: 50%;
+    width:450px;
+    height:450px;
+    position: fixed;
+    opacity:100%;
+
+  }
+
+  .tanggallahir{
+      margin-top: 33px;
+  }
+
+.kontakwa{
+    margin-top: 33px;
+
+}
+
+
+.gender{
+    margin-left: 15px;
+}
+#keterangan{
+    font-size:x-small;
+}
+
+
+#bangkokvtrip{
+    margin-left: 15px;
+}
+
+#submit{
+margin-left: 75%;
+margin-top: 50px;
+width:150px;
+height:50px;
+
+}
+
+
+
+
+
+.content {
+    position: relative;
+    background: rgba(255, 255,255, 0.5);
+    color: rgb(0,0,0);
+ height:1390px;
+
+   
+  }
+
+input{
+    width: 50px;
+}
+
+.form-control{
+    width: 330px;
+}
+
+.form-check-label{
+    margin-left: 20px;
+}
+
+
+.text-dark{
+    margin-left: 33px;
+}
+
+#footer{
+    margin-top: 122px;
+   
+    font-size: x-small;
+    margin-left: 20px;
+}

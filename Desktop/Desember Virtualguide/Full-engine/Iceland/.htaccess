@@ -1,0 +1,10 @@
+RewriteEngine On
+ 
+RewriteCond %{HTTPS} off
+ 
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION BEGIN
+<IfModule Litespeed>
+SetEnv comingsoon source /home/virtualg/nodevenv/comingsoon/10/bin/activate && cd /home/virtualg/comingsoon
+</IfModule>
+# DO NOT REMOVE OR MODIFY. CLOUDLINUX ENV VARS CONFIGURATION END
