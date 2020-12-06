@@ -1,1 +1,10 @@
 /node_modules
+/.vscode
+.htaccess
+.htaccess2
+/controller
+/routes
+/.vscode
+catetan.txt
+package.json
+package-lock.json

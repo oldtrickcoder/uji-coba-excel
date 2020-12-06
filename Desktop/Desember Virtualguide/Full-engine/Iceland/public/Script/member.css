@@ -1,0 +1,174 @@
+@font-face{
+    src: url(../Fonts/Poppins-Bold.ttf);
+    font-family: popin1;
+}
+
+@font-face{
+    src: url(../Fonts/Poppins-ExtraLight.ttf);
+    font-family: light-poppins;
+}
+
+*{
+    padding: 0;
+    margin: 0 0;
+    font-family: popin1;
+}
+
+@media only screen and (min-width: 1200px) {
+    html,body{
+        height: fit-content;
+        width: fit-content;
+    }
+
+    .fa-paper-plane{
+        left: 0;
+        font-size: 60px;
+        color: white;
+        display: block;
+        z-index: 10;
+        grid-area: logo;
+        /* display: none; */
+    }
+
+    .logo{
+        position: relative;
+        left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        top: 25px;
+    }
+    .circle{
+        height: 125px;
+        width: 125px;
+        background: rgba(0, 0, 0, 0.2);
+        padding-left: 0;
+        border-radius: 50%;
+        border-width: 0.5em;
+        border-style: solid;
+        border-color: white;
+        z-index: 5;
+        display:grid;
+        grid-template-columns: .9fr;
+        grid-template-areas: "logo";
+
+        align-items: center;
+        justify-items: center;
+        /* position: absolute; */
+        top: 10%;
+        /* display: none; */
+    }
+
+    .logo-text{
+        text-transform: uppercase;
+        font-family: popin1;
+        margin-top: 15px;
+    }
+
+    form{
+        height: fit-content;
+        width: 800px;
+        padding: 100px 100px;
+        position: relative;
+        left: 35%;
+        top: 10%;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        background: rgba(0,0,0,0.5);
+        padding-bottom: 75px;
+        padding-top: 25px;
+        /* display: none; */
+    }
+
+    .gambar{
+        background: url(https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05);
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: fixed;
+        height: 100vh;
+        width: 100vw;
+        z-index: -5;
+        top: 0;
+        margin-top: 0;
+
+    }
+
+
+
+    label{
+        color: white;
+    }
+
+    h1{
+        color: white;
+    }
+
+    p{
+        color: white;
+    }
+
+    .text-kecil{
+        color: white;
+        font-size: 12px;
+    }
+
+    #footer{
+        position: relative;
+        bottom: 0;
+        top: 250px;
+        justify-self: center;
+        left: 30%;
+    }
+
+    .tomboldong{
+        height: 50px;
+        width: 150px;
+        border-style: solid;
+        border-width: .1em;
+        border-color: white;
+        color: white;
+        background: rgba(0,0,0,.2);
+        left: 50%;
+        margin-left: 75%;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+
+    .tomboldong:hover{
+        border-color: white;
+        color: rgba(0, 0, 0, 0.7);
+        background: white;
+    }
+
+
+    .a-lead{
+        color:black;
+        padding: 2px 2px;
+        background: yellow;
+        text-decoration: none;
+    }
+
+    .a-lead:hover{
+        color:black;
+        padding: 2px 2px;
+        background: yellow;
+        text-decoration: none;
+    }
+
+    .font-weight-light{
+        margin-top: 80px;
+    }
+
+
+    .keterangandong{
+        position: fixed;
+        z-index: 5 ;
+        top: 40%;
+        left: 15%;
+        color: rgb(0, 255, 0);
+        font-size: 33px ;
+    }
+
+
+}

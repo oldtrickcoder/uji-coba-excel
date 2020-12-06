@@ -2,7 +2,6 @@
 const express = require("express");
 var app = express();
 const path = require("path");
-const ejs = require("ejs");
 var host = "localhost";
 var port = 3000;
 
@@ -21,6 +20,11 @@ app.get('/',(req,res)=>{
 
 app.get('/member',(req,res)=>{
    res.render('member');
+});
+
+app.get('/thankyou',(req,res)=>{
+    
+    res.render('confirmed');
 });
 
 var server=app.listen(port,host,function(){

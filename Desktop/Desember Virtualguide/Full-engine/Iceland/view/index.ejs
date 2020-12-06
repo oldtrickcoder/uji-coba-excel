@@ -19,7 +19,7 @@
     <div class="gambar"></div>
     <!--------Forrm and card-->
    
-    <form>
+    <form action="" method="">
         <div class="content">     
           <div class="row">
           <!-- Page Content -->
@@ -35,7 +35,7 @@
            <!-- end logo -->
                   <h1 class="font-weight-light">Form Pendaftaran Virtual Tour</h1>
                 <p class="lead">silakan isi form di bawah ini untuk mengikuti virtual tour</p><p class="lead"> atau <a class="a-lead" href="/member">klik disini !</a> kalau kamu sudah pernah mengikuti virtual tour dari kami @virtualguide.id </p>
-                <form >
+                
                   <div class="form-group">
                     <label for="exampleInputEmail1">Email address</label>
                     <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Isi Alamat email" name="AlamatEmail">
@@ -58,13 +58,13 @@
                     <div class="jeniskelamin">
                         <label>Jenis kelamin</label>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="laki-laki" name="gender">
+                          <input class="form-check-input" type="radio" name="gender" id="exampleRadios1" value="laki-laki" name="gender">
                           <label class="gender" for="exampleRadios1">
                             laki-laki
                           </label>
                         </div>
                         <div class="form-check">
-                          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="perempuan">
+                          <input class="form-check-input" type="radio" name="gender" id="exampleRadios2" value="perempuan">
                           <label class="gender" for="exampleRadios2">
                             Perempuan
                           </label>
@@ -89,7 +89,8 @@
                     <!-------bagian bawah submit----->
                   </div>
               </div>
-              <button type="submit" class="tomboldong" id="submit">Submit</button>
+              <button type="submit" class="tomboldong" id="submit">
+                <a href="/thankyou"> Submit</a></button>
                 </form>
       
 
